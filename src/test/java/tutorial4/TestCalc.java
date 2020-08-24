@@ -15,8 +15,8 @@ public class TestCalc
         assertEquals(new Calc().add(13648, 896), 14544);
     }
 
-    // @Test 
-    // void testSubtract() {
-    //     assertEquals(new Calc().subtract(4, 2), 2);
-    // }
+    @Test 
+    void testSubtract() {
+        assertEquals(new Calc().subtract(4, 2), 2);
+    }
 }
